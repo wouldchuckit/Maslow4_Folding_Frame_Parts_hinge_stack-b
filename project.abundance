@@ -14,19 +14,19 @@
       "ioValue": 203
     },
     {
-      "name": "Input_1",
+      "name": "TabletopWidth",
+      "ioValue": 4
+    },
+    {
+      "name": "TabletopLength",
+      "ioValue": 8
+    },
+    {
+      "name": "BoltDiameter",
       "ioValue": 10
     },
     {
-      "name": "Input_2",
-      "ioValue": 10
-    },
-    {
-      "name": "Input_3",
-      "ioValue": 10
-    },
-    {
-      "name": "Input",
+      "name": "BitDiameter",
       "ioValue": 10
     }
   ],
@@ -424,8 +424,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.09169363538295577,
-      "y": 0.17321016166281755,
+      "x": 0.1262135922330097,
+      "y": 0.18475750577367206,
       "uniqueID": "id-7038",
       "name": "Maslow4_Folding_Frame_Parts_hinge",
       "ioValues": [
@@ -443,11 +443,11 @@
         },
         {
           "name": "BoltDiameter",
-          "ioValue": 20
+          "ioValue": 10
         },
         {
           "name": "BitDiameter",
-          "ioValue": 6.5
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -624,7 +624,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 20
+              "ioValue": 10
             }
           ]
         },
@@ -900,7 +900,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-10-134.82426627478202-0-0",
+                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-5-134.82426627478202-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -978,7 +978,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ]
         },
@@ -990,7 +990,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ]
         },
@@ -1002,7 +1002,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ]
         },
@@ -1077,7 +1077,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 3.25
+              "ioValue": 5
             }
           ],
           "currentEquation": "x/ sqrt(2)"
@@ -1091,7 +1091,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 2.2980970388562794
+              "ioValue": 3.5355339059327373
             }
           ],
           "currentEquation": "-x"
@@ -1138,11 +1138,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 2.2980970388562794
+              "ioValue": 3.5355339059327373
             },
             {
               "name": "yDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "zDist",
@@ -1158,11 +1158,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "yDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "zDist",
@@ -1178,11 +1178,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "yDist",
-              "ioValue": 2.2980970388562794
+              "ioValue": 3.5355339059327373
             },
             {
               "name": "zDist",
@@ -1199,7 +1199,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ],
           "currentEquation": "x/2"
@@ -1284,7 +1284,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-cut-cut-fuse-cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-10-134.82426627478202-0-0-move-rectangle-59.400000000000006-19.8--29.700000000000003-0-0-move-move-circle-3.25--39.6--9.9-0-2.2980970388562794--2.2980970388562794-0-move-move-circle-3.25-0-9.9-0--2.2980970388562794-2.2980970388562794-0-move-move-circle-3.25-0--9.9-0--2.2980970388562794--2.2980970388562794-0",
+                "geometry": "cut-cut-cut-fuse-cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-5-134.82426627478202-0-0-move-rectangle-59.400000000000006-19.8--29.700000000000003-0-0-move-move-circle-5--39.6--9.9-0-3.5355339059327373--3.5355339059327373-0-move-move-circle-5-0-9.9-0--3.5355339059327373-3.5355339059327373-0-move-move-circle-5-0--9.9-0--3.5355339059327373--3.5355339059327373-0",
                 "tags": [],
                 "bom": [
                   []
@@ -1313,7 +1313,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-cut-circle-69.3-circle-10-134.82426627478202-0-0",
+                "geometry": "move-cut-circle-69.3-circle-5-134.82426627478202-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1799,8 +1799,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.0895361380798274,
-      "y": 0.348729792147806,
+      "x": 0.11272923408845739,
+      "y": 0.3302540415704388,
       "uniqueID": "id-7257",
       "name": "Maslow4_Folding_Frame_Parts_hinge-spacers",
       "ioValues": [
@@ -1818,11 +1818,11 @@
         },
         {
           "name": "BoltDiameter",
-          "ioValue": 20
+          "ioValue": 10
         },
         {
           "name": "BitDiameter",
-          "ioValue": 6.5
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -1999,7 +1999,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 20
+              "ioValue": 10
             }
           ]
         },
@@ -2275,7 +2275,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-10-134.82426627478202-0-0",
+                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-5-134.82426627478202-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -2353,7 +2353,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ]
         },
@@ -2365,7 +2365,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ]
         },
@@ -2377,7 +2377,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ]
         },
@@ -2452,7 +2452,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 3.25
+              "ioValue": 5
             }
           ],
           "currentEquation": "x/ sqrt(2)"
@@ -2466,7 +2466,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 2.2980970388562794
+              "ioValue": 3.5355339059327373
             }
           ],
           "currentEquation": "-x"
@@ -2513,11 +2513,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 2.2980970388562794
+              "ioValue": 3.5355339059327373
             },
             {
               "name": "yDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "zDist",
@@ -2533,11 +2533,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "yDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "zDist",
@@ -2553,11 +2553,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -2.2980970388562794
+              "ioValue": -3.5355339059327373
             },
             {
               "name": "yDist",
-              "ioValue": 2.2980970388562794
+              "ioValue": 3.5355339059327373
             },
             {
               "name": "zDist",
@@ -2574,7 +2574,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 6.5
+              "ioValue": 10
             }
           ],
           "currentEquation": "x/2"
@@ -3188,32 +3188,33 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.308,
+      "y": 0.24711316397228636,
       "uniqueID": "id-7688",
-      "name": "Input_1",
+      "name": "TabletopWidth",
       "type": "number"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.374,
+      "y": 0.32101616628175517,
       "uniqueID": "id-7690",
-      "name": "Input_2",
+      "name": "TabletopLength",
       "type": "number"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.44,
+      "y": 0.39953810623556585,
       "uniqueID": "id-7693",
-      "name": "Input_3",
+      "name": "BoltDiameter",
       "type": "number"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.506,
+      "y": 0.4688221709006928,
       "uniqueID": "id-7696",
+      "name": "BitDiameter",
       "type": "number"
     }
   ],
@@ -3417,6 +3418,46 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-7257",
       "ap2ID": "id-5238"
+    },
+    {
+      "ap2Name": "TabletopWidth",
+      "ap1ID": "id-7688",
+      "ap2ID": "id-7038"
+    },
+    {
+      "ap2Name": "TabletopWidth",
+      "ap1ID": "id-7688",
+      "ap2ID": "id-7257"
+    },
+    {
+      "ap2Name": "TabletopLength",
+      "ap1ID": "id-7690",
+      "ap2ID": "id-7038"
+    },
+    {
+      "ap2Name": "TabletopLength",
+      "ap1ID": "id-7690",
+      "ap2ID": "id-7257"
+    },
+    {
+      "ap2Name": "BoltDiameter",
+      "ap1ID": "id-7693",
+      "ap2ID": "id-7038"
+    },
+    {
+      "ap2Name": "BoltDiameter",
+      "ap1ID": "id-7693",
+      "ap2ID": "id-7257"
+    },
+    {
+      "ap2Name": "BitDiameter",
+      "ap1ID": "id-7696",
+      "ap2ID": "id-7038"
+    },
+    {
+      "ap2Name": "BitDiameter",
+      "ap1ID": "id-7696",
+      "ap2ID": "id-7257"
     }
   ],
   "unitsKey": "MM",
